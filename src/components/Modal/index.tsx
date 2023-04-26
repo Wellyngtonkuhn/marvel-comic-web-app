@@ -26,7 +26,7 @@ type ModalData = {
 
       <ModalContent>
         <div>
-
+        {id}
         </div>
 
         <div>
