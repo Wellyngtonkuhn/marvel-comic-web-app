@@ -47,6 +47,7 @@ export default function Modal({ id, setOpenModal }: ModalData) {
 
   return (
     <ModalSection>
+      {isLoading && <h1>Loading...</h1>}
       <ModalHeader>
         <h3>{data?.[0].title}</h3>
         <button onClick={() => handleCloseModal()}>
