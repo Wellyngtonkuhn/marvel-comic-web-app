@@ -5,7 +5,7 @@ const API_KEY = import.meta.env.VITE_PUBLIC_API_KEY;
 const HASH = import.meta.env.VITE_HASH;
 
 export const api = axios.create({
-  baseURL: "http://gateway.marvel.com/v1/public/",
+  baseURL: "https://gateway.marvel.com/v1/public/",
   params: {
     "apikey": API_KEY,
     "ts": TS,
